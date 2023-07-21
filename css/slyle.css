@@ -1,0 +1,44 @@
+body{
+    background-image: url("../img/Desktop_-_1_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+ 
+nav div, nav section{
+    display: inline-block;
+}
+
+.menu{
+   margin-left: 35px; 
+}
+
+.nav-line{
+    margin: 40px 0px 50px 300px;
+    width: 1000px;
+    background-color: #fff;
+}
+
+.nav-line div{
+    margin: 0px 50px 0px 50px;
+    font-family: "Karma", sans-serif;
+    font-size: 2em;
+}
+
+footer{
+    margin: 500px 0px 40px 30px;
+    font-family: "Karma", sans-serif;
+}
+
+.join-us{
+    font-weight: 700;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+.footer-list{
+    margin: 4px;
+    font-size: 26px;
+}
+
+

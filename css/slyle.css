@@ -5,18 +5,28 @@ body{
     color: #fff;
 }
  
-nav div, nav section{
+div, nav section, footer section{
     display: inline-block;
 }
 
 .menu{
+    width: 50px;
+    position: relative;
+    bottom: 15px;
+}
+
+/*.menu{
    margin-left: 35px; 
+   margin-top: 30px;
+}*/
+
+nav{
+    padding: 30px  50px;
 }
 
 .nav-line{
-    margin: 40px 0px 50px 300px;
-    width: 1000px;
-    background-color: #fff;
+   
+   margin-left: 450px;
 }
 
 .nav-line div{
@@ -41,4 +51,58 @@ footer{
     font-size: 26px;
 }
 
+h1{
+    font-family: 'Jacques Francois';
+    font-size: 120px;
+    text-align: center;
+   
+    background: linear-gradient(90deg, rgba(215,122,130,1) 6%, rgba(220,9,27,1) 26%, rgba(63,73,150,1) 48%, rgba(49,59,137,1) 64%, rgba(0,236,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-left: 37%;
+    width: 470px;
+    margin: 150px 0px 40px 37%;
+    
+}
 
+main section{
+    
+    width: 785px;
+    margin: auto;
+    
+}
+.description{
+    font-family: 'Kameron', serif;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 29px;
+}
+
+.read-more{
+    font-family: "Karma", sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.arrow{
+    position: relative;
+    /* top: 10px;
+    left */
+    margin: 10px 0px 0px 5px;
+}
+
+footer section{
+    margin-left: 40px;
+}
+
+.logos{
+    margin-left: 1320px;
+}
+
+.logos div img{
+    margin: 0px 5px;
+    width: 40px;
+}

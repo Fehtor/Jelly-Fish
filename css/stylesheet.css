@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Jacques Francois';
+    src: url('JacquesFrancois-Regular.woff2') format('woff2'),
+        url('JacquesFrancois-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
